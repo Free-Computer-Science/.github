@@ -1,5 +1,7 @@
 # The Free Computer Science Contributing Guide
 
+_Note:_ This guide is based off of The Odin Project Contribution Guide. If there are any corrections you feel should be made to meet the needs of this organization, please open an issue.
+
  Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
 _Note:_ any pull request created for an issue that already has someone else assigned **will be closed without review**.
@@ -21,10 +23,11 @@ _Note:_ any pull request created for an issue that already has someone else assi
 
 Between our website, repos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
-* **Path**: The broadest level of the curriculum structure. When you first start TOP, you will be on the Foundations path. Upon completion of Foundations, you choose one of two different Full Stack paths to continue down.
-* **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage. When asked what course you're on, you might say "I'm on the Getting Hired course!"
-* **Section**: A course is made up of different sections. A section splits a course into even more distinct topics. When asked what section you're on, you might say "I just started the Basic Ruby section!"
-* **Lesson**: Finally, a section is made up of different lessons. This is the most specific level of the curriculum structure. This is the exact thing you're currently on. When asked what lesson you're on, you might say "I'm reading through the Webpack lesson!"
+* **Path**: The broadest level of the curriculum structure. All beginners start on the Foundations path. This includes the core topics that everyone who studies computer science should know, even at a simple level.
+* **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage.
+* **Unit**: A course is made up of different units, like in a class or a textbook. Each unit covers its own broad topic within a course (for example, the "foundations" unit of a discrete math course might have pre-requisite knowledge about concepts in math
+* **Section**: Sections will be groupings of lessons that talk about specific material "For example, a section on "sets" in discrete math may cover several lessons about how sets work
+* **Lesson*: A lesson is a specific learning objective that you want the learner to understand. For example: In discrete
 
 ## Label Meanings
 
@@ -85,33 +88,23 @@ Each repository may have its own specific contribution guide that pertains only 
 
 #### Curriculum Repo
 
-The [TOP curriculum repo](https://github.com/TheOdinProject/curriculum) contains all of the lessons in our curriculum. Any suggestions or changed to specific lesson content belong there.
+
 
 <hr>
 
 #### Web App Repo
 
-The [TOP web app repo](https://github.com/TheOdinProject/theodinproject) contains everything that builds the actual TOP website. Any suggestions or changes related to the structure of the curriculum, styling, or content at the website level belong there.
+
 
 <hr>
 
 #### Exercise Repos
 
-We have 3 primary exercise repos that we link to throughout our curriculum, designed to help users gain an understanding of concepts through practice. Any suggestions or changes to our exercises belong in one of the following repos:
 
-- [CSS exercises](https://github.com/TheOdinProject/css-exercises)
-- [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises)
-- [Ruby exercises](https://github.com/TheOdinProject/ruby-exercises)
-
-**Please do not open pull request (PR) with your solutions to any exercise repo**. Your PR will be immediately closed without being merged. The exercise repos are for you to do and keep any work on your own local machine or your personal GitHub.
-
-Before submitting a PR for any of our exercise repos, you must make sure any tests still pass or that any images showing desired outcomes are still accurate.
 
 <hr>
 
-#### Odin-Bot Repo
 
-Our [Odin-bot repo](https://github.com/TheOdinProject/odin-bot-v2) is where the everyone's favorite Discord bot lives. Any changes or suggestions for the Odin-bot belong there.
 
 ### Check Before Doing Anything
 
