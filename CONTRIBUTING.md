@@ -21,13 +21,13 @@ _Note:_ any pull request created for an issue that already has someone else assi
 
 ## Curriculum Structure
 
-Between our website, repos, and Discord server, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
+Between our website and repo, you're bound to see certain terms being used in regard to the curriculum structure. It can be important to keep these terms in mind when referring or contributing to certain parts of our curriculum, both for consistency and to make sure everyone understands what you mean.
 
 * **Path**: The broadest level of the curriculum structure. All beginners start on the Foundations path. This includes the core topics that everyone who studies computer science should know, even at a simple level.
 * **Course**: A path is made up of different courses. A course splits a path into more distinct topics, and each course has its own completion percentage.
 * **Unit**: A course is made up of different units, like in a class or a textbook. Each unit covers its own broad topic within a course (for example, the "foundations" unit of a discrete math course might have pre-requisite knowledge about concepts in math
 * **Section**: Sections will be groupings of lessons that talk about specific material "For example, a section on "sets" in discrete math may cover several lessons about how sets work
-* **Lesson*: A lesson is a specific learning objective that you want the learner to understand. For example: In discrete
+* **Lesson**: A lesson is a specific learning objective that you want the learner to understand. For example: In discrete
 
 ## Label Meanings
 
@@ -137,9 +137,8 @@ If you would like to work on an existing issue in a repo:
    * If you would like to be assigned the issue you are creating, complete the applicable checkbox in the issue template. Note that this does not guarantee that you will be assigned the issue, but rather it lets maintainers know that you are interested.
    * The more information you are able to provide in your issue, the better.
    * Ensure you create the issue in the right repo; some of the repos are:
-      * The [curriculum](https://github.com/TheOdinProject/curriculum/issues/new/choose) repo, for changes to the actual content of lessons.
-      * The [theodinproject](https://github.com/TheOdinProject/theodinproject/issues/new/choose) repo, for changes to the TOP website.
-      * The exercise repos: [javascript](https://github.com/TheOdinProject/javascript-exercises/issues/new/choose), [css](https://github.com/TheOdinProject/css-exercises/issues/new/choose), and [ruby](https://github.com/TheOdinProject/ruby-exercises/issues/new/choose)
+      * The curriculum repo, for changes to the actual content of lessons.
+      * The free-computer-science.github.io repo, for changes to the FCS website.
 
 ### Setting Up Your Local Clone
 
@@ -159,7 +158,7 @@ Before you begin working on anything, make sure you follow these steps in order 
     git clone git@github.com:Odinson/css-exercises.git
     ```
 
-3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with TOP's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
+3. `cd` into the directory of your local clone, then set the upstream remote so you can keep your local clone synced with FCS's original repo. The `<repo name>` below should be the same as the one you used when creating your local clone in the previous step.
 
     ```bash
     # If you have SSH set up with Git:
@@ -216,9 +215,9 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    * Once you have switched to the correct branch on GitHub, click the "Contribute" dropdown and then click the "Open pull request" button.
 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
-   * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main TOP repo that only involves making changes to documentation, you would not need to run any tests.
+   * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main FCS repo that only involves making changes to documentation, you would not need to run any tests.
    * The title of the PR must follow the format described in the PR template.
-   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another TOP repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
+   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another FCS repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
    * If the PR is not part of an open issue, be sure to describe the reason(s) for the change(s) in more detail in Step 1 of the PR template, as well as outlining the changes made in the PR in Step 2.
 
 3. At this point a maintainer will either leave general comments, request changes, or approve and merge your PR.
