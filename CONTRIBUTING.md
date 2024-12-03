@@ -1,6 +1,6 @@
 # The Free Computer Science Contributing Guide
 
-_Note:_ This guide is based off of The Odin Project Contribution Guide. If there are any corrections you feel should be made to meet the needs of this organization, please open an issue.
+_Note:_ This guide is based off of The Odin Project Contribution Guide. If there are any corrections you feel should be made to meet the needs of this organization, please open an issue. If you want a good free education in web development, check out The Odin Project. I can never rate them high enough in terms of quality and quanitity. They really got me off the ground from hobbyist to professional developer.
 
  Whether you are a first time contributor or you have made several contributions to our repos, please be sure to read this guide thoroughly before contributing as it will lessen the chances of any issues arising during the process.
 
@@ -108,7 +108,7 @@ Each repository may have its own specific contribution guide that pertains only 
 
 ### Check Before Doing Anything
 
-It's important that you look through any open [issues](https://github.com/TheOdinProject/theodinproject/issues) or [pull requests](https://github.com/TheOdinProject/theodinproject/pulls) in a repo before attempting to submit a new issue or work on a change, regardless of the complexity. This will help avoid any duplicates from being made, as well as prevent more than one person working on the same thing at the same time.
+It's important that you look through any open issuesor pull requests in a repo before attempting to submit a new issue or work on a change, regardless of the complexity. This will help avoid any duplicates from being made, as well as prevent more than one person working on the same thing at the same time.
 
 If your proposal already exists in an open issue or PR, but you feel there are details missing, comment on the issue/PR to let those involved know of those missing details.
 
@@ -162,12 +162,12 @@ Before you begin working on anything, make sure you follow these steps in order 
 
     ```bash
     # If you have SSH set up with Git:
-    git remote add upstream git@github.com:TheOdinProject/<repo name>.git
+    git remote add upstream git@github.com:Free-Computer-Science/<repo name>.git
     # Otherwise for HTTPS:
-    git remote add upstream https://github.com/TheOdinProject/<repo name>.git
+    git remote add upstream https://github.com/Free-Computer-Science/<repo name>.git
 
     # An example:
-    git remote add upstream https://github.com/TheOdinProject/css-exercises.git
+    git remote add upstream https://github.com/Free-Computer-Science/css-exercises.git
     ```
 
 ### Working on an Issue
@@ -194,7 +194,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
    git commit -m "Update solution files"
    ```
 
-3. Sync your work with the upstream remote every so often. Follow the [ongoing workflow](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby/lessons/using-git-in-the-real-world#ongoing-workflow) instructions in our Using Git in the Real World lesson.
+3. Sync your work with the upstream remote every so often.
 
 4. Push your branch to your forked repo, replacing the `<your branch name>` with the branch you've been working on locally:
 
@@ -217,7 +217,7 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
 2. **Read the PR template in its entirety before filling it out and submitting a PR**. Not filling out the template correctly will delay a PR getting merged.
    * If a checkbox is not required and is not applicable to your PR, do not complete it. For example, if you submit a PR to our main FCS repo that only involves making changes to documentation, you would not need to run any tests.
    * The title of the PR must follow the format described in the PR template.
-   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another FCS repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
+   * If the PR is meant to close an open issue, you must link that issue in Step 1 of the PR template. This can be done either by replacing the `XXXXX` with the issue number, e.g. `Closes #2013`, or if the issue is in another FCS repo replacing the `#XXXXX` with the URL of the issue, e.g. `Closes https://github.com/Free-Computer-Science/curriculum/issues/XXXXX`. This streamlines the issue closing process, as an issue that is linked to a PR will be closed when that PR gets merged.
    * If the PR is not part of an open issue, be sure to describe the reason(s) for the change(s) in more detail in Step 1 of the PR template, as well as outlining the changes made in the PR in Step 2.
 
 3. At this point a maintainer will either leave general comments, request changes, or approve and merge your PR.
@@ -227,4 +227,4 @@ Once you have the repo forked and cloned, and the upstream remote has been set, 
       ![Reviewers section of GitHub's sidebar](https://user-images.githubusercontent.com/70952936/150647064-4fdd59d1-82a4-4f18-894d-0e43a5ee0ffb.jpg)
 
 ## Further Help
-Please let us know if you require any further help with any of the steps in this guide by creating an issue in the relevant repository. If you need help with creating an issue [GitHub has a guide on how to do so](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue). For questions not covered by this guide you can also join our [Discord](https://discord.com/invite/fbFCkYabZB).
+Please let us know if you require any further help with any of the steps in this guide by creating an issue in the relevant repository. If you need help with creating an issue [GitHub has a guide on how to do so](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
